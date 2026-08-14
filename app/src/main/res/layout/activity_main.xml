@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Start Logging Button -->
+    <Button
+        android:id="@+id/toggleLogging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Logging"
+        android:layout_centerInParent="true" />
+
+    <!-- Go to Recordings Button (➡ icon style) -->
+    <ImageButton
+        android:id="@+id/goToRecordingsButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="24dp"
+        android:src="@android:drawable/ic_media_next"
+        android:contentDescription="Go to Recordings"
+        android:background="?attr/selectableItemBackgroundBorderless" />
+
+</RelativeLayout>
